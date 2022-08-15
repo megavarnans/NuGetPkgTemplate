@@ -49,7 +49,7 @@ If you need to set back your `dotnet new` list to "factory defaults", use this c
 
 ## Template(s)
 
-### **dotnet new rp-package**
+### **dotnet new axosbank-package**
 
 This template creates a .NET Standard class library that will be published as a NuGet package to the Axos Bank
  Nuget feed. To make debugging easier for consumers of the package, the project is configured to use [Source Link](https://github.com/dotnet/sourcelink/blob/main/README.md#source-link).
