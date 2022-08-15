@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>AxosBank.DotNetTemplates</id>
+    <version>0.0.1</version>
+    <authors>Mega Selvaraj</authors>
+    <description>
+ASP.NET Core templates for NuGet packages and other best practices.  
+
+See the **readme** on the project site for more information.
+
+https://bofaz.visualstudio.com?_a=readme    
+    </description>
+    <language>en-US</language>
+    <projectUrl>https://bofaz.visualstudio.com/_git/dotnet-templates</projectUrl>
+    <releaseNotes>
+	    https://bofaz.visualstudio.com/_git/dotnet-templates?path=%2FReleaseNotes.md&amp;version=GBmain&amp;_a=preview
+  </releaseNotes>
+    <iconUrl>https://axosbank.com/images/white%20logo.png</iconUrl>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+</package>

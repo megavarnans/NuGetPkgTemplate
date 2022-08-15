@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "mselvaraj@axosbank.com",
+  "classifications": [ "Axos Bank Package" ],
+  "tags": { "language": "C#" },
+  "identity": "AxosBank.NuGetPackage",
+  "name": "Axos Bank NuGet Package",
+  "shortName": "axosbank-package",
+  "sourceName": "Project.Package",
+  "preferNameDirectory": true
+} 
+  

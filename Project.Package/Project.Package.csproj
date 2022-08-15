@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <Company>Axos Bank</Company>
+    <PackageIcon>Axos_Bank_Logo.png</PackageIcon>
+    <PackageIconUrl />
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="4.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog" Version="2.10.0" />
+	<PackageReference Include="Microsoft.SourceLink.AzureDevOpsServer.Git" Version="1.1.1">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>		          
+	</PackageReference>
+	<SourceLinkAzureDevOpsServerGitHost Include="bofaz.visualstudio.com" VirtualDirectory="tfs" />
+  </ItemGroup>
+
+</Project>
